@@ -19,7 +19,7 @@ class TripsRepository:
                 trip_infos["start_date"],
                 trip_infos["end_date"],
                 trip_infos["owner_name"],
-                trip_infos["owner_email"]
+                trip_infos["owner_email"],
             )
         )
         self.__conn.commit()
