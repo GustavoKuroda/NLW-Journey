@@ -13,7 +13,7 @@ def test_register_email():
 
     email_trips_infos = {
         "id": str(uuid.uuid4()),
-        "trip_id":trip_id,
+        "trip_id": trip_id,
         "email": "helloworld@email.com"
     }
 
