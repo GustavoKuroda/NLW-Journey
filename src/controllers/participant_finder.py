@@ -18,7 +18,7 @@ class ParticipantFinder:
                 })
 
             return {
-                "body": {"id": trip_id},
+                "body": {"participants": participants_infos},
                 "status_code": 201
             }
         except Exception as exception:

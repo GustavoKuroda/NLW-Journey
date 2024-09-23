@@ -12,12 +12,12 @@ class ActivityFinder:
             for activity in activities:
                 formatted_activities.append({
                     "id": activity[0],
-                    "title": activity[1],
-                    "occurs_at": activity[2]
+                    "title": activity[2],
+                    "occurs_at": activity[3]
                 })
 
             return {
-                "body": {"id": trip_id},
+                "body": {"activities": formatted_activities},
                 "status_code": 201
             }
         except Exception as exception:
