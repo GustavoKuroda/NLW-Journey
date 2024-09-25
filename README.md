@@ -1,6 +1,6 @@
 # Overview
 
-A trip management application developed at the event NLW Unite by Rocketseat.
+A trip management application developed at the event NLW Journey by Rocketseat.
 
 # Objectives
 
